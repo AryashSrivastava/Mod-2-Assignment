@@ -1,0 +1,89 @@
+*{
+	background-color: lightgrey;
+}
+.h1 {
+	font-family: courier;
+	text-align: center;
+	border: 10px solid gold;
+	width: 30%;
+	margin-left: 33%;
+	background-color: goldenrod;
+	box-sizing: border-box;
+
+}
+#h2{
+	background-color: indianred;
+	border: 1px solid black;
+	margin-top: 0px;
+	width: 45%;
+	float:right;
+	clear:both;
+	color:wheat;
+	padding:10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#h21{
+	background-color: palevioletred;
+	border: 1px solid black;
+	margin-top: 0px;
+	width: 45%;
+	float:right;
+	clear:both;
+	box-sizing: border-box;
+	padding:10px;
+	text-align: center;
+}
+#h22{
+	background-color: darkolivegreen;
+	border: 1px solid black;
+	margin-top: 0px;
+	width: 45%;
+	float:right;
+	clear:both;
+	color: white;
+	box-sizing: border-box;
+	padding:10px;
+	text-align: center;
+}
+.section{
+	box-sizing: border-box;
+	float: left;
+	font-family: courier;
+	background: goldenrod;
+	width: 30%;
+	border: 1px solid black;
+	margin: 10px;
+	margin-top: 20px;
+	position: relative;
+
+
+}
+.div{
+	background: goldenrod;
+	font-family: cursive;
+	clear:right;
+	margin: 0px 0px 10px 10px ;
+	text-align: left;
+	font-weight: 900;
+}
+/*for medium devices like tablet*/
+@media(max-width:991px) and (min-width:768px){
+.section{
+	width:45%;
+}
+
+
+}
+/*for large devices like laptop*/
+@media (min-width:992px){
+.section{
+	width:30%;
+}
+}
+/*for small devices like mobiles*/
+@media (max-width:767px){
+.section{
+	width:95%;
+}
+}
